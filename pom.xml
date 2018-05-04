@@ -33,7 +33,6 @@
         <module>eureka</module>
         <module>config</module>
         <module>gateway</module>
-        <module>user</module>
         <module>order</module>
         <module>product</module>
     </modules>
@@ -95,5 +94,6 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
+
 
 </project>
