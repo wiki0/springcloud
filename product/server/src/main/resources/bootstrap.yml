@@ -7,3 +7,5 @@ spring:
         enabled: true
         service-id: CONFIG
       profile: dev
+server:
+  port: 8005

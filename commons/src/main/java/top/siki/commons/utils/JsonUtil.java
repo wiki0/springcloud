@@ -1,4 +1,4 @@
-package top.siki.client.utils;
+package top.siki.commons.utils;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -7,7 +7,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.IOException;
 
 /**
- * 2018-02-21 10:40
+ * 2018-03-04 23:25
  * @author wiki
  */
 public class JsonUtil {

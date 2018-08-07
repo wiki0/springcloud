@@ -8,10 +8,9 @@ spring:
           uri: http://118.24.109.186:10080/wiki/config-rep
           username: wiki0@live.cn
           password: wiki2link
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
+    consul:
+      host: localhost
+      port: 8500
 server:
   port: 8760
 management:

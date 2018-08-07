@@ -1,4 +1,4 @@
-package top.siki.client.utils;
+package top.siki.commons.utils;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;

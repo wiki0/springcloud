@@ -1,9 +1,10 @@
-package top.siki.client.utils;
+package top.siki.commons.utils;
 
 import java.util.Random;
 
 /**
- * 2017-12-10 16:57
+ * 2018-03-04 23:25
+ * @author wiki
  */
 public class KeyUtil {
 

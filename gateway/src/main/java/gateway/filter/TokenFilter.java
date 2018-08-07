@@ -34,14 +34,14 @@ public class TokenFilter extends ZuulFilter {
 
     @Override
     public Object run() {
-        RequestContext requestContext = RequestContext.getCurrentContext();
-        HttpServletRequest request = requestContext.getRequest();
-        //参数中获取token cookie header
-        String token = request.getParameter("token");
-        if (StringUtils.isEmpty(token)){
-            requestContext.setSendZuulResponse(false);
-            requestContext.setResponseStatusCode(401);
-        }
+//        RequestContext requestContext = RequestContext.getCurrentContext();
+//        HttpServletRequest request = requestContext.getRequest();
+//        //参数中获取token cookie header
+//        String token = request.getParameter("token");
+//        if (StringUtils.isEmpty(token)){
+//            requestContext.setSendZuulResponse(false);
+//            requestContext.setResponseStatusCode(401);
+//        }
         return null;
     }
 }
